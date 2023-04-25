@@ -1,0 +1,12 @@
+name: streamlit-env
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - opencv
+  - tensorflow
+  - keras
+  - streamlit
+  - pip:
+    - streamlit-webrtc
